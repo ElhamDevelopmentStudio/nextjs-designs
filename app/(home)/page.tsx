@@ -8,29 +8,25 @@ function HeroParallaxDemo() {
 
 const products = [
   {
-    title: "Moonbeam",
-    link: "https://gomoonbeam.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/moonbeam.png",
+    title: "Kardan Programming Cotest",
+    link: "https://kardan-leet-code.vercel.app",
+    thumbnail: "/kardan.png",
   },
   {
-    title: "Cursor",
-    link: "https://cursor.so",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/cursor.png",
+    title: "Nucleus Web Studios",
+    link: "https://nucleus-web-black.vercel.app",
+    thumbnail: "/nucleus.png",
   },
   {
-    title: "Rogue",
-    link: "https://userogue.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/rogue.png",
+    title: "ElhamDev",
+    link: "https://elhamdev.vercel.app",
+    thumbnail: "/elhamdev.png",
   },
 
   {
-    title: "Editorially",
-    link: "https://editorially.org",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/editorially.png",
+    title: "Zafarkhil Tailoring",
+    link: "https://tailor-front-end.vercel.app",
+    thumbnail: "/zafarkhil.png",
   },
 ];
 

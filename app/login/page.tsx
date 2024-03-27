@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import Image from "next/image"; // Use Image component for better performance and SEO
+import Image from "next/legacy/image"; // Use Image component for better performance and SEO
 import { Button } from "@/components/ui/button"; // Ensure Shadcn UI is correctly imported based on your setup
 import { FiUser, FiLock, FiEye, FiEyeOff, FiSun, FiMoon } from "react-icons/fi";
 import Link from "next/link";
@@ -42,8 +42,8 @@ const LoginPage = () => {
               className="mx-auto h-24 md:h-32 w-auto"
               src="/kardanLogo.png"
               alt="Logo"
-              width={128} // Adjust based on your image's aspect ratio
-              height={128} // Adjust based on your image's aspect ratio
+              width={180} // Adjust based on your image's aspect ratio
+              height={180} // Adjust based on your image's aspect ratio
             />
             <h2 className="mt-4 md:mt-6 text-3xl md:text-4xl font-extrabold text-gray-900">
               Hello Again!

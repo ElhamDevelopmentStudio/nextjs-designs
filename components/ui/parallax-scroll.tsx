@@ -7,7 +7,7 @@ import {
 } from "framer-motion";
 import { useState, useRef, useEffect } from "react";
 import { motion } from "framer-motion";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import { cn } from "@/utils/cn";
 import style from "./css/parallax-hero.module.css";
 

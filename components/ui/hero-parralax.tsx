@@ -1,6 +1,6 @@
 import React from "react";
 import { motion, useScroll, useTransform, useSpring } from "framer-motion";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Link from "next/link";
 import { MotionValue } from "framer-motion";
 
